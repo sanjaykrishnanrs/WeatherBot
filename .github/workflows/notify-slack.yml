@@ -1,0 +1,14 @@
+name: Notify in Slack
+on: workflow_dispatch
+jobs:
+  notify-slack:
+    runs-on: ubuntu-latest
+    name: A job to notify in slack with my github actions
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/slack-notify-junitxml-action
+        with:
+          slackbotid: ${secrets.slackbotid}
+          slackbottoken: ${secrets.slackbottoken}
+          slackchannel: ${secrets.slackchannel}
+          junitxml_filepath: WeatherBot/junitreport.xml

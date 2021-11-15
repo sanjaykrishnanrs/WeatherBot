@@ -9,7 +9,7 @@ jobs:
       - name: Notify Slack Test Result
         uses: sanjaykrishnanrs/slack-notify-junitxml-action@0.1.0-alpha
         with:
-          slackbotid: ${secrets.slackbotid}
-          slackbottoken: ${secrets.slackbottoken}
-          slackchannel: ${secrets.slackchannel}
+          slackbotid: ${{ secrets.slackbotid }}
+          slackbottoken: ${{ secrets.slackbottoken }}
+          slackchannel: ${{ secrets.slackchannel }}
           junitxml_filepath: WeatherBot/junitreport.xml

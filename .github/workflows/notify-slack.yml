@@ -1,4 +1,4 @@
-name: Notify in Slack
+name: Notify in Slack Channel
 on: workflow_dispatch
 jobs:
   notify-slack:

@@ -7,9 +7,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Notify Slack Test Result
-        uses: sanjaykrishnanrs/slack-notify-junitxml-action@0.1.8-alpha
+        uses: sanjaykrishnanrs/slack-notify-junitxml-action@0.1.9-alpha
         with:
           slackbotid: ${{ secrets.SLACKBOTID }}
-          slackbottoken: ${{ secrets.slackbottoken }}
+          slackbottoken: ${{ secrets.SLACKBOTTOKEN }}
           slackchannel: '${{ secrets.SLACKCHANNEL }}'
           junitxml_filepath: junitreport.xml

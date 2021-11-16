@@ -4,6 +4,7 @@ jobs:
   notify-slack:
     runs-on: ubuntu-latest
     name: A job to notify in slack with my github actions
+    environment: Configure Slackbot Notification
     steps:
       - uses: actions/checkout@v2
       - name: Notify Slack Test Result

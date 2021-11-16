@@ -8,8 +8,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Notify Slack Test Result
-        uses: sanjaykrishnanrs/slack-notify-junitxml-action@0.1.11-alpha
+        uses: sanjaykrishnanrs/slack-notify-junitxml-action@0.1.12-alpha
         with:
+          title: WeatherBot Tests
           slackbotid: ${{ secrets.SLACKBOTID }}
           slackbottoken: ${{ secrets.SLACKBOTTOKEN }}
           slackchannel: '${{ secrets.SLACKCHANNEL }}'

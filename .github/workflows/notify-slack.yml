@@ -4,6 +4,8 @@ jobs:
   build:
     name: Build & Integrate
     runs-on: ubuntu-latest
+    steps:
+      - run: echo "Build the code"
   test:
     name: Test
     needs: build

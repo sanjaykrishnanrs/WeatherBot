@@ -14,9 +14,15 @@ jobs:
       matrix: 
         os: [ubuntu-latest, windows-latest, macos-latest]
     steps:
-      - run: echo "Test the code"
+      - name: "Test code"
+        run: echo "Test the code"
+      - name: "Generate junitreport"
+        run: echo "Generate junitreport"
   notify-slack:
-    name: Notify Slack
+    strategy:
+      matrix: 
+        filename: [ubuntu-latest, windows-latest, macos-latest]
+    name: Notify Slack [{filename}]
     needs: test
     runs-on: ubuntu-latest
     environment: Slackbot Notification

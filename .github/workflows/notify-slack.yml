@@ -22,7 +22,7 @@ jobs:
     strategy:
       matrix: 
         filename: [ubuntu-latest, windows-latest, macos-latest]
-    name: Notify Slack [${{matrix.os}}]
+    name: Notify Slack-${{matrix.filename}}
     needs: test
     runs-on: ubuntu-latest
     environment: Slackbot Notification
@@ -35,5 +35,5 @@ jobs:
           slackbotid: ${{ secrets.SLACKBOTID }}
           slackbottoken: ${{ secrets.SLACKBOTTOKEN }}
           slackchannel: ${{ secrets.SLACKCHANNEL }}
-          junitxml_filepath: junitreport.xml
+          junitxml_filepath: ${{matrix.filename}}/junitreport.xml
   

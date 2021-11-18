@@ -1,9 +1,22 @@
 name: Notify in Slack Channels
 on: workflow_dispatch
 jobs:
-  notify-slack:
+  build:
+    name: Build & Integrate
     runs-on: ubuntu-latest
-    name: A job to notify in slack with my github actions
+  test:
+    name: Test
+    needs: build
+    runs-on: ubuntu-latest
+    strategy:
+      matrix: 
+        os: [ubuntu-latest, windows-latest, macos-latest]
+    steps:
+      - run: echo "Test the code"
+  notify-slack:
+    name: Notify Slack
+    needs: test
+    runs-on: ubuntu-latest
     environment: Slackbot Notification
     steps:
       - uses: actions/checkout@v2
@@ -13,5 +26,6 @@ jobs:
           title: WeatherBot Tests
           slackbotid: ${{ secrets.SLACKBOTID }}
           slackbottoken: ${{ secrets.SLACKBOTTOKEN }}
-          slackchannel: '${{ secrets.SLACKCHANNEL }}'
+          slackchannel: ${{ secrets.SLACKCHANNEL }}
           junitxml_filepath: junitreport.xml
+  

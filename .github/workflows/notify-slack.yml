@@ -22,7 +22,7 @@ jobs:
     strategy:
       matrix: 
         filename: [ubuntu-latest, windows-latest, macos-latest]
-    name: Notify Slack [{filename}]
+    name: Notify Slack [${{matrix.os}}]
     needs: test
     runs-on: ubuntu-latest
     environment: Slackbot Notification

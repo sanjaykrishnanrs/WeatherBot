@@ -1,5 +1,5 @@
 name: Notify in Slack Channels
-on: workflow_dispatch
+on: [push,workflow_dispatch]
 jobs:
   build:
     name: Build & Integrate
@@ -35,5 +35,5 @@ jobs:
           slackbotid: ${{ secrets.SLACKBOTID }}
           slackbottoken: ${{ secrets.SLACKBOTTOKEN }}
           slackchannel: ${{ secrets.SLACKCHANNEL }}
-          junitxml_filepath: ${{matrix.filename}}/junitreport.xml
+          junitxml_filepath: test/${{matrix.filename}}/junitreport.xml
   

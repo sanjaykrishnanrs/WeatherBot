@@ -31,7 +31,7 @@ jobs:
       - name: CI Test Result in Slack
         uses: sanjaykrishnanrs/slack-notify-junitxml-action@0.1.0-beta
         with:
-          title: WeatherBot Tests - ${{matrix.filename}}
+          title: WeatherBot Tests- ${{matrix.filename}}
           slackbotid: ${{ secrets.SLACKBOTID }}
           slackbottoken: ${{ secrets.SLACKBOTTOKEN }}
           slackchannel: ${{ secrets.SLACKCHANNEL }}

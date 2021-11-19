@@ -28,12 +28,12 @@ jobs:
     environment: Slackbot Notification
     steps:
       - uses: actions/checkout@v2
-      - name: Notify Slack Test Result
-        uses: sanjaykrishnanrs/slack-notify-junitxml-action@0.1.12-alpha
+      - name: CI Test Result in Slack
+        uses: sanjaykrishnanrs/slack-notify-junitxml-action@0.1.0-beta
         with:
           title: WeatherBot Tests
           slackbotid: ${{ secrets.SLACKBOTID }}
           slackbottoken: ${{ secrets.SLACKBOTTOKEN }}
           slackchannel: ${{ secrets.SLACKCHANNEL }}
-          junitxml_filepath: test/${{matrix.filename}}/junitreport.xml
+          junitxml_filepath: tests/${{matrix.filename}}/junitreport.xml
   

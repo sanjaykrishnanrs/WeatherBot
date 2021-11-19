@@ -1,0 +1,1665 @@
+<testsuites>
+    <testsuite name="pytest" errors="0" failures="6" skipped="2" tests="400" time="359.229"
+               timestamp="2021-11-16T09:45:23.920399"
+               hostname="2020-Jenkins-worker-template.ppmpro.team">
+        <testcase classname="ppmpro.tests.scenario.advanced.ssa.ssa_available_fields_test"
+                  name="test_verify_gates_status_field"
+                  file="ppmpro/tests/scenario/advanced/ssa/ssa_available_fields_test.py" line="683"
+                  time="7.349"/>
+        <testcase
+                classname="ppmpro.tests.scenario.advanced.permissions.test_permission_rule_type_association_with_portfolio_and_unit"
+                name="test_permission_rule_type_association_with_portfolio_and_unit"
+                file="ppmpro/tests/scenario/advanced/permissions/test_permission_rule_type_association_with_portfolio_and_unit.py"
+                line="4" time="10.966"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.asset_updation_test"
+                  name="test_asset_import_update_for_similar_field_mapping_and_all_standard_and_only_mandatory_udf_fields"
+                  file="ppmpro/tests/scenario/a_data_import/asset_updation_test.py" line="47"
+                  time="8.858"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.ssa.ssa_available_fields_test"
+                  name="test_copy_req_udf_data_to_project_udf"
+                  file="ppmpro/tests/scenario/advanced/ssa/ssa_available_fields_test.py" line="710"
+                  time="20.896"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.asset_updation_test"
+                  name="test_asset_import_update_for_manual_field_mapping_and_all_standard_and_only_mandatory_udf_fields"
+                  file="ppmpro/tests/scenario/a_data_import/asset_updation_test.py" line="69"
+                  time="0.546"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.asset_updation_test"
+                  name="test_asset_import_update_for_same_field_mapping_and_includes_all_fields"
+                  file="ppmpro/tests/scenario/a_data_import/asset_updation_test.py" line="91"
+                  time="0.515"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.asset_updation_test"
+                  name="test_asset_import_update_for_similar_field_mapping_and_includes_all_fields"
+                  file="ppmpro/tests/scenario/a_data_import/asset_updation_test.py" line="113"
+                  time="0.587"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.asset_updation_test"
+                  name="test_asset_import_update_for_manual_field_mapping_and_includes_all_fields"
+                  file="ppmpro/tests/scenario/a_data_import/asset_updation_test.py" line="135"
+                  time="0.580"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.asset_updation_test"
+                  name="test_asset_generate_import_file_for_update_and_validate_all_available_fields"
+                  file="ppmpro/tests/scenario/a_data_import/asset_updation_test.py" line="158"
+                  time="9.246"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.alert.test_gate_skipping"
+                  name="test_request_flow_sendback_approve_and_notifications"
+                  file="ppmpro/tests/scenario/advanced/alert/test_gate_skipping.py" line="249"
+                  time="32.420"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.forecast_creation_test"
+                  name="test_forecast_import_new_exact_same_title_standard_fieldmapping"
+                  file="ppmpro/tests/scenario/a_data_import/forecast_creation_test.py" line="6"
+                  time="0.643"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.r2d2.r2d2_task_reports_test"
+                  name="test_r2d2_bar_reports_on_task"
+                  file="ppmpro/tests/scenario/advanced/r2d2/r2d2_task_reports_test.py" line="8"
+                  time="16.038"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.forecast_creation_test"
+                  name="test_forecast_import_new_standard_fieldmapping_similar"
+                  file="ppmpro/tests/scenario/a_data_import/forecast_creation_test.py" line="27"
+                  time="0.547"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.forecast_creation_test"
+                  name="test_forecast_import_new_standard_fieldmapping_manual"
+                  file="ppmpro/tests/scenario/a_data_import/forecast_creation_test.py" line="48"
+                  time="0.453"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.forecast_creation_test"
+                  name="test_forecast_import_new__exact_same_title_udf"
+                  file="ppmpro/tests/scenario/a_data_import/forecast_creation_test.py" line="69"
+                  time="0.417"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.forecast_creation_test"
+                  name="test_forecast_import_new_udf_fieldmapping_similar"
+                  file="ppmpro/tests/scenario/a_data_import/forecast_creation_test.py" line="90"
+                  time="0.444"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.forecast_creation_test"
+                  name="test_forecast_import_new_udf_fieldmapping_manual"
+                  file="ppmpro/tests/scenario/a_data_import/forecast_creation_test.py" line="111"
+                  time="0.450"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.forecast_creation_test"
+                  name="test_forecast_import_new_mandatory_fieldmapping_manual"
+                  file="ppmpro/tests/scenario/a_data_import/forecast_creation_test.py" line="132"
+                  time="0.406"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.forecast_creation_test"
+                  name="test_forecast_import_new_all_fieldmapping_manual"
+                  file="ppmpro/tests/scenario/a_data_import/forecast_creation_test.py" line="153"
+                  time="0.508"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.forecast_creation_test"
+                  name="test_forecast_import_new_all_fieldmapping_similar"
+                  file="ppmpro/tests/scenario/a_data_import/forecast_creation_test.py" line="174"
+                  time="0.487"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.forecast_creation_test"
+                  name="test_forecast_import_new_all_fieldmapping_same"
+                  file="ppmpro/tests/scenario/a_data_import/forecast_creation_test.py" line="195"
+                  time="0.487"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.forecast_creation_test"
+                  name="test_forecast_import_new_fieldmapping_same_contour"
+                  file="ppmpro/tests/scenario/a_data_import/forecast_creation_test.py" line="216"
+                  time="0.416"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.forecast_creation_test"
+                  name="test_forecast_generate_import_file_for_new_and_validate_all_available_fields"
+                  file="ppmpro/tests/scenario/a_data_import/forecast_creation_test.py" line="239"
+                  time="0.073"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.forecast_updation_test"
+                  name="test_forecast_import_update_same_field_mapping_include_all_standard_and_mandatory_udf_fields"
+                  file="ppmpro/tests/scenario/a_data_import/forecast_updation_test.py" line="7"
+                  time="2.487"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.r2d2.r2d2_task_reports_test"
+                  name="test_r2d2_pie_reports_on_task"
+                  file="ppmpro/tests/scenario/advanced/r2d2/r2d2_task_reports_test.py" line="129"
+                  time="4.867"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.forecast_updation_test"
+                  name="test_forecast_import_update_similar_field_mapping_include_all_standard_and_mandatory_udf_fields"
+                  file="ppmpro/tests/scenario/a_data_import/forecast_updation_test.py" line="32"
+                  time="2.496"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.ssa.ssa_available_fields_test"
+                  name="test_gravitar_photo_display_in_intake_request_card_view"
+                  file="ppmpro/tests/scenario/advanced/ssa/ssa_available_fields_test.py" line="783"
+                  time="3.963"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.forecast_updation_test"
+                  name="test_forecast_import_update_manual_field_mapping_include_all_standard_and_mandatory_udf_fields"
+                  file="ppmpro/tests/scenario/a_data_import/forecast_updation_test.py" line="57"
+                  time="2.552"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.r2d2.r2d2_task_reports_test"
+                  name="test_r2d2_pie_reports"
+                  file="ppmpro/tests/scenario/advanced/r2d2/r2d2_task_reports_test.py" line="178"
+                  time="5.735"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.ssa.ssa_available_fields_test"
+                  name="test_cust_sequence_field_for_portfolio"
+                  file="ppmpro/tests/scenario/advanced/ssa/ssa_available_fields_test.py" line="837"
+                  time="1.759"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.alert.test_gate_skipping"
+                  name="test_request_flow_sendback_reject_and_notifications"
+                  file="ppmpro/tests/scenario/advanced/alert/test_gate_skipping.py" line="328"
+                  time="18.359"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.forecast_updation_test"
+                  name="test_import_exact_same_title_udf"
+                  file="ppmpro/tests/scenario/a_data_import/forecast_updation_test.py" line="82"
+                  time="2.457"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.ssa.ssa_available_fields_test"
+                  name="test_set_default_values_from_rhs_for_multi_select_field"
+                  file="ppmpro/tests/scenario/advanced/ssa/ssa_available_fields_test.py" line="912"
+                  time="3.458"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.forecast_updation_test"
+                  name="test_import_udf_fieldmapping_similar"
+                  file="ppmpro/tests/scenario/a_data_import/forecast_updation_test.py" line="107"
+                  time="2.531"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.ssa.ssa_available_fields_test"
+                  name="test_multi_select_field_display_value_and_not_ids"
+                  file="ppmpro/tests/scenario/advanced/ssa/ssa_available_fields_test.py" line="932"
+                  time="4.692"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.r2d2.r2d2_request_list_test"
+                  name="test_details_of_request_attachment"
+                  file="ppmpro/tests/scenario/advanced/r2d2/r2d2_request_list_test.py" line="7"
+                  time="6.130"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.forecast_updation_test"
+                  name="test_import_udf_fieldmapping_manual"
+                  file="ppmpro/tests/scenario/a_data_import/forecast_updation_test.py" line="132"
+                  time="2.470"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.forecast_updation_test"
+                  name="test_forecast_import_update_mandatory_fieldmapping_manual"
+                  file="ppmpro/tests/scenario/a_data_import/forecast_updation_test.py" line="157"
+                  time="2.506"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.ssa.ssa_available_fields_test"
+                  name="test_copy_req_udf_with_multiselect_data_to_project_udf_with_multiselect"
+                  file="ppmpro/tests/scenario/advanced/ssa/ssa_available_fields_test.py" line="987"
+                  time="8.111"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.forecast_updation_test"
+                  name="test_forecast_import_update_manual_mapping_all_mandatory_fields"
+                  file="ppmpro/tests/scenario/a_data_import/forecast_updation_test.py" line="182"
+                  time="2.506"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.dashboard.test_manage_publishing"
+                  name="test_check_manage_publishing_for_existing_dashboard"
+                  file="ppmpro/tests/scenario/advanced/dashboard/test_manage_publishing.py" line="8"
+                  time="2.562"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.forecast_updation_test"
+                  name="test_forecast_import_update_all_fields_similar_field_mapping"
+                  file="ppmpro/tests/scenario/a_data_import/forecast_updation_test.py" line="207"
+                  time="2.460"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.dashboard.test_manage_publishing"
+                  name="test_publishing_without_any_authentication"
+                  file="ppmpro/tests/scenario/advanced/dashboard/test_manage_publishing.py"
+                  line="64" time="8.521"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.forecast_updation_test"
+                  name="test_forecast_import_update_all_fields_and_same_mapping_with_custom_contour"
+                  file="ppmpro/tests/scenario/a_data_import/forecast_updation_test.py" line="232"
+                  time="2.455"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.ssa.ssa_available_fields_test"
+                  name="test_verify_create_multiselect_list_with_unit"
+                  file="ppmpro/tests/scenario/advanced/ssa/ssa_available_fields_test.py" line="1052"
+                  time="3.714"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.forecast_updation_test"
+                  name="test_forecast_generate_import_file_for_update_and_validate_all_available_fields"
+                  file="ppmpro/tests/scenario/a_data_import/forecast_updation_test.py" line="259"
+                  time="0.066"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.issue_creation_test"
+                  name="test_issue_import_new_for_same_field_mapping_with_all_standard_mandatory_udf_fields"
+                  file="ppmpro/tests/scenario/a_data_import/issue_creation_test.py" line="15"
+                  time="1.703"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.alert.intake_request_test"
+                  name="test_submit_intake_req"
+                  file="ppmpro/tests/scenario/advanced/alert/intake_request_test.py" line="4"
+                  time="4.751"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.issue_creation_test"
+                  name="test_issue_import_new_same_field_mapping_for_mandatory_standard_fields_all_udfs"
+                  file="ppmpro/tests/scenario/a_data_import/issue_creation_test.py" line="34"
+                  time="0.701"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.issue_updation_test"
+                  name="test_issue_import_update_for_same_field_mapping_with_all_standard_fields_and_mandatory_udfs"
+                  file="ppmpro/tests/scenario/a_data_import/issue_updation_test.py" line="16"
+                  time="1.325"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.ssa.ssa_available_fields_test"
+                  name="test_reference_when_used_in_gate"
+                  file="ppmpro/tests/scenario/advanced/ssa/ssa_available_fields_test.py" line="1070"
+                  time="0.001">
+            <skipped type="pytest.skip"
+                     message="new fields are not shown in project details - leankit ID-1496876180">
+                /var/lib/jenkins/workspace/PyTest_Development/ppmpro/tests/scenario/advanced/ssa/ssa_available_fields_test.py:1071:
+                new fields are not shown in project details - leankit ID-1496876180
+            </skipped>
+        </testcase>
+        <testcase classname="ppmpro.tests.scenario.advanced.ssa.ssa_available_fields_test"
+                  name="test_department_group_access_project_details"
+                  file="ppmpro/tests/scenario/advanced/ssa/ssa_available_fields_test.py" line="1119"
+                  time="8.408"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.issue_updation_test"
+                  name="test_issue_import_update_for_same_field_mapping_with_all_udfs_and_mandatory_standard_fields"
+                  file="ppmpro/tests/scenario/a_data_import/issue_updation_test.py" line="40"
+                  time="0.623"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.dashboard.test_manage_publishing"
+                  name="test_publishing_with_user_logged_into_ppmpro"
+                  file="ppmpro/tests/scenario/advanced/dashboard/test_manage_publishing.py"
+                  line="86" time="8.366"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.issue_updation_test"
+                  name="test_issue_import_update_for_same_field_mapping_with_standard_fields"
+                  file="ppmpro/tests/scenario/a_data_import/issue_updation_test.py" line="64"
+                  time="0.661"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.alert.intake_request_test"
+                  name="test_submit_intake_verify_approvals_emails"
+                  file="ppmpro/tests/scenario/advanced/alert/intake_request_test.py" line="16"
+                  time="3.306"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.issue_updation_test"
+                  name="test_issue_import_update_for_similar_field_mapping_with_all_standard_fields_and_mandatory_udfs"
+                  file="ppmpro/tests/scenario/a_data_import/issue_updation_test.py" line="88"
+                  time="0.718"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.issue_updation_test"
+                  name="test_issue_import_update_for_similar_field_mapping_with_all_udfs_and_mandatory_standard_fields"
+                  file="ppmpro/tests/scenario/a_data_import/issue_updation_test.py" line="112"
+                  time="0.610"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.issue_updation_test"
+                  name="test_issue_import_update_for_similar_field_mapping_with_standard_fields"
+                  file="ppmpro/tests/scenario/a_data_import/issue_updation_test.py" line="136"
+                  time="0.552"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.issue_updation_test"
+                  name="test_issue_import_update_for_manual_field_mapping_with_all_standard_fields_and_mandatory_udfs"
+                  file="ppmpro/tests/scenario/a_data_import/issue_updation_test.py" line="160"
+                  time="0.621"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.issue_updation_test"
+                  name="test_issue_import_update_for_manual_field_mapping_with_all_udfs_and_mandatory_standard_fields"
+                  file="ppmpro/tests/scenario/a_data_import/issue_updation_test.py" line="184"
+                  time="0.592"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.issue_updation_test"
+                  name="test_issue_import_update_for_manual_field_mapping_with_standard_fields"
+                  file="ppmpro/tests/scenario/a_data_import/issue_updation_test.py" line="208"
+                  time="0.586"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.alert.intake_request_test"
+                  name="test_gate2_approver_email_verification"
+                  file="ppmpro/tests/scenario/advanced/alert/intake_request_test.py" line="28"
+                  time="3.762"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.issue_updation_test"
+                  name="test_import_issue_import_update_special_character_for_description_and_other_fields"
+                  file="ppmpro/tests/scenario/a_data_import/issue_updation_test.py" line="232"
+                  time="2.256"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.issue_updation_test"
+                  name="test_issue_generate_import_file_for_update_and_validate_all_available_fields"
+                  file="ppmpro/tests/scenario/a_data_import/issue_updation_test.py" line="267"
+                  time="0.385"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.portfolio_creation_test"
+                  name="test_import_standard_and_udf_fields_with_same_mapping"
+                  file="ppmpro/tests/scenario/a_data_import/portfolio_creation_test.py" line="6"
+                  time="0.886"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.ssa.ssa_available_fields_test"
+                  name="test_portolio_field_restriction_UDF_fields"
+                  file="ppmpro/tests/scenario/advanced/ssa/ssa_available_fields_test.py" line="1206"
+                  time="8.276"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.alert.intake_request_test"
+                  name="test_gate1_reject_email_verification"
+                  file="ppmpro/tests/scenario/advanced/alert/intake_request_test.py" line="49"
+                  time="3.319"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.portfolio_creation_test"
+                  name="test_import_standard_fields_with_same_mapping"
+                  file="ppmpro/tests/scenario/a_data_import/portfolio_creation_test.py" line="25"
+                  time="0.782"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.dashboard.test_manage_publishing"
+                  name="test_publishing_with_access_code_happy_path"
+                  file="ppmpro/tests/scenario/advanced/dashboard/test_manage_publishing.py"
+                  line="104" time="8.328"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.portfolio_creation_test"
+                  name="test_import_udf_fields_mapping_is_same_create"
+                  file="ppmpro/tests/scenario/a_data_import/portfolio_creation_test.py" line="43"
+                  time="0.199"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.portfolio_creation_test"
+                  name="test_import_standard_fields_mapping_is_similar_create"
+                  file="ppmpro/tests/scenario/a_data_import/portfolio_creation_test.py" line="61"
+                  time="0.751"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.portfolio_creation_test"
+                  name="test_import_udf_fields_mapping_is_similar_create"
+                  file="ppmpro/tests/scenario/a_data_import/portfolio_creation_test.py" line="79"
+                  time="0.770"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.portfolio_creation_test"
+                  name="test_import_all_fields_mapping_is_similar"
+                  file="ppmpro/tests/scenario/a_data_import/portfolio_creation_test.py" line="96"
+                  time="0.195"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.portfolio_creation_test"
+                  name="test_import_standard_fields_mapping_is_manual"
+                  file="ppmpro/tests/scenario/a_data_import/portfolio_creation_test.py" line="114"
+                  time="0.668"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.alert.intake_request_test"
+                  name="test_gate1_onhold"
+                  file="ppmpro/tests/scenario/advanced/alert/intake_request_test.py" line="59"
+                  time="3.728"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.portfolio_creation_test"
+                  name="test_import_udf_fields_mapping_is_manual"
+                  file="ppmpro/tests/scenario/a_data_import/portfolio_creation_test.py" line="132"
+                  time="0.340"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.portfolio_creation_test"
+                  name="test_import_all_fields_mapping_is_manual"
+                  file="ppmpro/tests/scenario/a_data_import/portfolio_creation_test.py" line="150"
+                  time="0.339"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.portfolio_creation_test"
+                  name="test_import_dynamic_special_character_for_description"
+                  file="ppmpro/tests/scenario/a_data_import/portfolio_creation_test.py" line="168"
+                  time="0.994"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.portfolio_creation_test"
+                  name="test_import_dynamic_special_character_string_required_no_encoding"
+                  file="ppmpro/tests/scenario/a_data_import/portfolio_creation_test.py" line="184"
+                  time="0.611"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.portfolio_creation_test"
+                  name="test_import_dynamic_special_character_string_required_encoding"
+                  file="ppmpro/tests/scenario/a_data_import/portfolio_creation_test.py" line="199"
+                  time="0.649"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.portfolio_creation_test"
+                  name="test_import_mandatory_fields"
+                  file="ppmpro/tests/scenario/a_data_import/portfolio_creation_test.py" line="214"
+                  time="0.191"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.portfolio_creation_test"
+                  name="test_import_child_portfolio_creation_with_parent_porfolio_details"
+                  file="ppmpro/tests/scenario/a_data_import/portfolio_creation_test.py" line="231"
+                  time="0.501"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.alert.intake_request_test"
+                  name="test_gate1_approved"
+                  file="ppmpro/tests/scenario/advanced/alert/intake_request_test.py" line="90"
+                  time="3.304"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.portfolio_creation_test"
+                  name="test_import_child_portfolio_creation_with_parent_porfolio_title"
+                  file="ppmpro/tests/scenario/a_data_import/portfolio_creation_test.py" line="253"
+                  time="0.482"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.portfolio_creation_test"
+                  name="test_import_child_portfolio_creation_with_parent_porfolio_id"
+                  file="ppmpro/tests/scenario/a_data_import/portfolio_creation_test.py" line="272"
+                  time="0.492"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.ssa.ssa_available_fields_test"
+                  name="test_scheduled_resource_field_with_view_restriction_is_not_editable_in_grid"
+                  file="ppmpro/tests/scenario/advanced/ssa/ssa_available_fields_test.py" line="1511"
+                  time="3.250"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.portfolio_creation_test"
+                  name="test_generate_import_file_for_new_and_validate_all_available_fields"
+                  file="ppmpro/tests/scenario/a_data_import/portfolio_creation_test.py" line="293"
+                  time="0.061"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.portfolio_updation_test"
+                  name="test_import_all_fields_mapping_is_same"
+                  file="ppmpro/tests/scenario/a_data_import/portfolio_updation_test.py" line="6"
+                  time="1.069"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.dashboard.test_manage_publishing"
+                  name="test_publishing_with_access_code_negative_scenario"
+                  file="ppmpro/tests/scenario/advanced/dashboard/test_manage_publishing.py"
+                  line="122" time="17.772"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.portfolio_updation_test"
+                  name="test_import_standard_fields_mapping_is_same"
+                  file="ppmpro/tests/scenario/a_data_import/portfolio_updation_test.py" line="40"
+                  time="0.844"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.portfolio_updation_test"
+                  name="test_import_udf_fields_mapping_is_same"
+                  file="ppmpro/tests/scenario/a_data_import/portfolio_updation_test.py" line="70"
+                  time="0.501"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.alert.intake_request_test"
+                  name="test_gate1_reject"
+                  file="ppmpro/tests/scenario/advanced/alert/intake_request_test.py" line="107"
+                  time="3.280"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.portfolio_updation_test"
+                  name="test_import_standard_fields_mapping_is_similar"
+                  file="ppmpro/tests/scenario/a_data_import/portfolio_updation_test.py" line="98"
+                  time="0.739"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.portfolio_updation_test"
+                  name="test_import_udf_fields_mapping_is_similar"
+                  file="ppmpro/tests/scenario/a_data_import/portfolio_updation_test.py" line="129"
+                  time="0.517"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.portfolio_updation_test"
+                  name="test_import_all_fields_mapping_is_similar"
+                  file="ppmpro/tests/scenario/a_data_import/portfolio_updation_test.py" line="157"
+                  time="0.542"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.portfolio_updation_test"
+                  name="test_import_standard_fields_mapping_is_manual"
+                  file="ppmpro/tests/scenario/a_data_import/portfolio_updation_test.py" line="185"
+                  time="0.952"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.portfolio_updation_test"
+                  name="test_import_udf_fields_mapping_is_manual"
+                  file="ppmpro/tests/scenario/a_data_import/portfolio_updation_test.py" line="218"
+                  time="0.569"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.alert.intake_request_test"
+                  name="test_gate1_back_to_progress"
+                  file="ppmpro/tests/scenario/advanced/alert/intake_request_test.py" line="127"
+                  time="3.412"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.portfolio_updation_test"
+                  name="test_import_all_fields_mapping_is_manual"
+                  file="ppmpro/tests/scenario/a_data_import/portfolio_updation_test.py" line="246"
+                  time="0.540"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.portfolio_updation_test"
+                  name="test_import_dynamic_special_character_textbox"
+                  file="ppmpro/tests/scenario/a_data_import/portfolio_updation_test.py" line="273"
+                  time="1.761"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.portfolio_updation_test"
+                  name="test_import_child_portfolio_updation_with_parent_porfolio_details"
+                  file="ppmpro/tests/scenario/a_data_import/portfolio_updation_test.py" line="313"
+                  time="0.675"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.alert.intake_request_test"
+                  name="test_back_to_privous_gate"
+                  file="ppmpro/tests/scenario/advanced/alert/intake_request_test.py" line="144"
+                  time="3.371"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.portfolio_updation_test"
+                  name="test_import_child_portfolio_updation_with_parent_porfolio_title"
+                  file="ppmpro/tests/scenario/a_data_import/portfolio_updation_test.py" line="343"
+                  time="0.648"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.portfolio_updation_test"
+                  name="test_import_child_portfolio_creation_with_parent_porfolio_id"
+                  file="ppmpro/tests/scenario/a_data_import/portfolio_updation_test.py" line="372"
+                  time="0.724"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.portfolio_updation_test"
+                  name="test_generate_import_file_for_update_and_validate_all_available_fields"
+                  file="ppmpro/tests/scenario/a_data_import/portfolio_updation_test.py" line="402"
+                  time="0.078"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.project_creation_test"
+                  name="test_import_exact_same_title_standard_field_mapping"
+                  file="ppmpro/tests/scenario/a_data_import/project_creation_test.py" line="8"
+                  time="1.229"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.project_creation_test"
+                  name="test_import_manual_standard_field_mapping"
+                  file="ppmpro/tests/scenario/a_data_import/project_creation_test.py" line="52"
+                  time="0.514"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.project_creation_test"
+                  name="test_import_same_field_mapping_with_mandatory_and_udf_fields"
+                  file="ppmpro/tests/scenario/a_data_import/project_creation_test.py" line="96"
+                  time="0.800"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.alert.intake_request_test"
+                  name="test_sencha_rich_text_formatting_gate_notification"
+                  file="ppmpro/tests/scenario/advanced/alert/intake_request_test.py" line="164"
+                  time="8.857"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.project_creation_test"
+                  name="test_import_manual_field_mapping_and_only_udf_fields"
+                  file="ppmpro/tests/scenario/a_data_import/project_creation_test.py" line="142"
+                  time="0.790"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.project_creation_test"
+                  name="test_import_special_character_in_title"
+                  file="ppmpro/tests/scenario/a_data_import/project_creation_test.py" line="165"
+                  time="0.594"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.project_creation_test"
+                  name="test_import_few_projects_with_default_and_few_without_default_values"
+                  file="ppmpro/tests/scenario/a_data_import/project_creation_test.py" line="187"
+                  time="1.280"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.project_creation_test"
+                  name="test_generate_import_file_for_new_and_validate_all_available_fields"
+                  file="ppmpro/tests/scenario/a_data_import/project_creation_test.py" line="224"
+                  time="0.103"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.project_updation_test"
+                  name="test_import_exact_same_title_standard_fieldmapping"
+                  file="ppmpro/tests/scenario/a_data_import/project_updation_test.py" line="8"
+                  time="2.012"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.r2d2.r2d2_project_reports_test"
+                  name="test_preview_pane"
+                  file="ppmpro/tests/scenario/advanced/r2d2/r2d2_project_reports_test.py" line="232"
+                  time="15.409"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.project_updation_test"
+                  name="test_import_similar_title_standard_fieldmapping"
+                  file="ppmpro/tests/scenario/a_data_import/project_updation_test.py" line="38"
+                  time="2.179"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.task.dependencies_test"
+                  name="test_setting_task_predecessor_under_same_project"
+                  file="ppmpro/tests/scenario/advanced/task/dependencies_test.py" line="4"
+                  time="2.264"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.r2d2.r2d2_project_reports_test"
+                  name="test_list_specialty_report"
+                  file="ppmpro/tests/scenario/advanced/r2d2/r2d2_project_reports_test.py" line="643"
+                  time="5.255"/>
+        <testcase
+                classname="ppmpro.tests.scenario.a_data_import.without_ssa.task_schedule_updation_test"
+                name="test_import_task_schedule_update_for_manual_field_mapping"
+                file="ppmpro/tests/scenario/a_data_import/without_ssa/task_schedule_updation_test.py"
+                line="68" time="1.528"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.task.dependencies_test"
+                  name="test_setting_task_successor_under_same_project"
+                  file="ppmpro/tests/scenario/advanced/task/dependencies_test.py" line="38"
+                  time="2.180"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.alert.intake_request_test"
+                  name="test_resource_without_user_gets_email_notification"
+                  file="ppmpro/tests/scenario/advanced/alert/intake_request_test.py" line="248"
+                  time="7.882"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.project_creation_test"
+                  name="test_import_similar_title_standard_field_mapping"
+                  file="ppmpro/tests/scenario/a_data_import/project_creation_test.py" line="31"
+                  time="1.331"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.project_creation_test"
+                  name="test_import_similar_field_mapping_and_udf_fields"
+                  file="ppmpro/tests/scenario/a_data_import/project_creation_test.py" line="119"
+                  time="0.786"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.task.dependencies_test"
+                  name="test_setting_task_predecessor_and_successor_under_same_project"
+                  file="ppmpro/tests/scenario/advanced/task/dependencies_test.py" line="72"
+                  time="2.361"/>
+        <testcase classname="ppmpro.tests.scenario.a_data_import.project_creation_test"
+                  name="test_import_test_conversion_for_task_hours_field_with_only_standard_fields"
+                  file="ppmpro/tests/scenario/a_data_import/project_creation_test.py" line="73"
+                  time="1.334"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.r2d2.r2d2_project_reports_test"
+                  name="test_list_stacked_report"
+                  file="ppmpro/tests/scenario/advanced/r2d2/r2d2_project_reports_test.py" line="569"
+                  time="7.886"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.task.dependencies_test"
+                  name="test_setting_task_predecessor_under_cross_project"
+                  file="ppmpro/tests/scenario/advanced/task/dependencies_test.py" line="105"
+                  time="2.755"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.task.dependencies_test"
+                  name="test_setting_task_successor_under_cross_project"
+                  file="ppmpro/tests/scenario/advanced/task/dependencies_test.py" line="137"
+                  time="2.651"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.alert.issue_test"
+                  name="test_issue_creation"
+                  file="ppmpro/tests/scenario/advanced/alert/issue_test.py" line="4" time="4.793"/>
+        <testcase
+                classname="ppmpro.tests.scenario.advanced.centralized_staffing.test_routing_options"
+                name="test_staffing_routing_options_unit_manager"
+                file="ppmpro/tests/scenario/advanced/centralized_staffing/test_routing_options.py"
+                line="414" time="13.189"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.task.dependencies_test"
+                  name="test_setting_task_predecessor_and_successor_under_cross_project"
+                  file="ppmpro/tests/scenario/advanced/task/dependencies_test.py" line="169"
+                  time="3.343"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.r2d2.r2d2_project_reports_test"
+                  name="test_bar_report_with_drilldown_to_multiple_reports_test"
+                  file="ppmpro/tests/scenario/advanced/r2d2/r2d2_project_reports_test.py" line="472"
+                  time="9.737"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.alert.issue_test"
+                  name="test_issue_updation"
+                  file="ppmpro/tests/scenario/advanced/alert/issue_test.py" line="20" time="3.516"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.task.dependencies_test"
+                  name="test_cross_project_dependency_with_constraint_must_finish_on"
+                  file="ppmpro/tests/scenario/advanced/task/dependencies_test.py" line="208"
+                  time="1.786"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.task.dependencies_test"
+                  name="test_cross_project_dependency_with_constraint_must_start_on"
+                  file="ppmpro/tests/scenario/advanced/task/dependencies_test.py" line="240"
+                  time="1.673"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.alert.issue_test"
+                  name="test_issue_modification_disable_alerts"
+                  file="ppmpro/tests/scenario/advanced/alert/issue_test.py" line="39" time="3.523"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.task.dependencies_test"
+                  name="test_cross_project_dependency_with_constraint_start_no_earlier_than"
+                  file="ppmpro/tests/scenario/advanced/task/dependencies_test.py" line="272"
+                  time="1.610"/>
+        <testcase
+                classname="ppmpro.tests.scenario.advanced.centralized_staffing.test_routing_options"
+                name="test_sro_for_no_resource_specific_user"
+                file="ppmpro/tests/scenario/advanced/centralized_staffing/test_routing_options.py"
+                line="212" time="16.627"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.task.dependencies_test"
+                  name="test_cross_project_dependency_with_constraint_start_no_latter_than"
+                  file="ppmpro/tests/scenario/advanced/task/dependencies_test.py" line="304"
+                  time="1.659"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.task.dependencies_test"
+                  name="test_cross_project_dependency_with_constraint_finish_no_earlier_than"
+                  file="ppmpro/tests/scenario/advanced/task/dependencies_test.py" line="336"
+                  time="1.687"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.alert.issue_test"
+                  name="test_time_user_as_owner_for_issue"
+                  file="ppmpro/tests/scenario/advanced/alert/issue_test.py" line="54" time="6.203"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.r2d2.r2d2_project_reports_test"
+                  name="test_gantt_report_with_project"
+                  file="ppmpro/tests/scenario/advanced/r2d2/r2d2_project_reports_test.py" line="180"
+                  time="8.093"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.task.dependencies_test"
+                  name="test_cross_project_dependency_with_constraint_finish_no_latter_than"
+                  file="ppmpro/tests/scenario/advanced/task/dependencies_test.py" line="368"
+                  time="1.599"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.task.dependencies_test"
+                  name="test_cross_project_dependency_of_inactive_task"
+                  file="ppmpro/tests/scenario/advanced/task/dependencies_test.py" line="400"
+                  time="1.489"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.task.dependencies_test"
+                  name="test_cross_project_dependency_successor_without_lead_lag"
+                  file="ppmpro/tests/scenario/advanced/task/dependencies_test.py" line="427"
+                  time="1.452"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.task.dependencies_test"
+                  name="test_predecessor_dependency_milestone_task"
+                  file="ppmpro/tests/scenario/advanced/task/dependencies_test.py" line="455"
+                  time="1.671"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.alert.project_test"
+                  name="test_project_creation_alert"
+                  file="ppmpro/tests/scenario/advanced/alert/project_test.py" line="6"
+                  time="4.324"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.task.dependencies_test"
+                  name="test_predecessor_dependency_manually_ticked_milestone_task"
+                  file="ppmpro/tests/scenario/advanced/task/dependencies_test.py" line="496"
+                  time="1.715"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.r2d2.r2d2_project_reports_test"
+                  name="test_multi_currency_in_r2_with_org_scope"
+                  file="ppmpro/tests/scenario/advanced/r2d2/r2d2_project_reports_test.py" line="748"
+                  time="5.138"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.task.dependencies_test"
+                  name="test_predecessor_dependency_inactive_task"
+                  file="ppmpro/tests/scenario/advanced/task/dependencies_test.py" line="539"
+                  time="1.830"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.alert.project_test"
+                  name="test_alert_project_modification"
+                  file="ppmpro/tests/scenario/advanced/alert/project_test.py" line="14"
+                  time="3.782"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.r2d2.r2d2_project_reports_test"
+                  name="test_r2d2_reports_on_project"
+                  file="ppmpro/tests/scenario/advanced/r2d2/r2d2_project_reports_test.py" line="80"
+                  time="5.092"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.ssa.ssa_details_test"
+                  name="test_pmo_lock" file="ppmpro/tests/scenario/advanced/ssa/ssa_details_test.py"
+                  line="431" time="12.165"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.alert.project_test"
+                  name="test_forcast_creation"
+                  file="ppmpro/tests/scenario/advanced/alert/project_test.py" line="34"
+                  time="8.548"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.manage_filters.test_saved_filters"
+                  name="test_filters_with_number_is_less_than"
+                  file="ppmpro/tests/scenario/advanced/manage_filters/test_saved_filters.py"
+                  line="346" time="6.558"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.manage_filters.test_saved_filters"
+                  name="test_filters_with_percent_type"
+                  file="ppmpro/tests/scenario/advanced/manage_filters/test_saved_filters.py"
+                  line="374" time="0.377"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.manage_filters.test_saved_filters"
+                  name="test_filters_with_percent_type_is_less_than_is"
+                  file="ppmpro/tests/scenario/advanced/manage_filters/test_saved_filters.py"
+                  line="423" time="0.345"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.manage_filters.test_saved_filters"
+                  name="test_filters_with_money_type"
+                  file="ppmpro/tests/scenario/advanced/manage_filters/test_saved_filters.py"
+                  line="476" time="0.369"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.r2d2.r2d2_project_reports_test"
+                  name="test_grouping_one_and_sorting_other_order_in_projects"
+                  file="ppmpro/tests/scenario/advanced/r2d2/r2d2_project_reports_test.py" line="376"
+                  time="4.979"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.manage_filters.test_saved_filters"
+                  name="test_money_type_with_is_is_not"
+                  file="ppmpro/tests/scenario/advanced/manage_filters/test_saved_filters.py"
+                  line="528" time="0.368"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.manage_filters.test_saved_filters"
+                  name="test_project_filter_with_float_is_type"
+                  file="ppmpro/tests/scenario/advanced/manage_filters/test_saved_filters.py"
+                  line="580" time="0.189"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.manage_filters.test_saved_filters"
+                  name="test_multiselect_filter_type"
+                  file="ppmpro/tests/scenario/advanced/manage_filters/test_saved_filters.py"
+                  line="608" time="0.473"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.manage_filters.test_saved_filters"
+                  name="test_lookup_list_filter_type"
+                  file="ppmpro/tests/scenario/advanced/manage_filters/test_saved_filters.py"
+                  line="663" time="0.698"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.manage_filters.test_saved_filters"
+                  name="test_picklist_filter_type"
+                  file="ppmpro/tests/scenario/advanced/manage_filters/test_saved_filters.py"
+                  line="722" time="0.339"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.manage_filters.test_saved_filters"
+                  name="test_issue_filter_status_is_not_multiselect_is_current_user"
+                  file="ppmpro/tests/scenario/advanced/manage_filters/test_saved_filters.py"
+                  line="754" time="0.280"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.manage_filters.test_saved_filters"
+                  name="test_issue_filter_status_is_not_empty_multiselect_contains"
+                  file="ppmpro/tests/scenario/advanced/manage_filters/test_saved_filters.py"
+                  line="787" time="0.296"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.manage_filters.test_saved_filters"
+                  name="test_issue_multiselect_is_not_empty_does_not_contain"
+                  file="ppmpro/tests/scenario/advanced/manage_filters/test_saved_filters.py"
+                  line="820" time="1.977"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.alert.project_test"
+                  name="test_forcast_modification"
+                  file="ppmpro/tests/scenario/advanced/alert/project_test.py" line="51"
+                  time="8.476"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.r2d2.r2d2_project_reports_test"
+                  name="test_project_topic_udf_fields"
+                  file="ppmpro/tests/scenario/advanced/r2d2/r2d2_project_reports_test.py"
+                  line="1133" time="12.657"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.iwm_task.iwm_test"
+                  name="test_iwm_task_creation_and_update_does_not_need_dates_and_not_auto_populate"
+                  file="ppmpro/tests/scenario/advanced/iwm_task/iwm_test.py" line="36"
+                  time="2.053"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.iwm_task.iwm_test"
+                  name="test_for_iwm_task_scheduling_section_is_readable_when_dates_are_not_provided"
+                  file="ppmpro/tests/scenario/advanced/iwm_task/iwm_test.py" line="58"
+                  time="0.558"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.ssa.ssa_details_test"
+                  name="test_create_new_lookuplist"
+                  file="ppmpro/tests/scenario/advanced/ssa/ssa_details_test.py" line="555"
+                  time="4.440"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.iwm_task.iwm_test"
+                  name="test_updating_duration_alone_for_iwm_task_does_not_roll_up_and_remain_the_same"
+                  file="ppmpro/tests/scenario/advanced/iwm_task/iwm_test.py" line="74"
+                  time="1.473"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.iwm_task.iwm_test"
+                  name="test_updating_start_date_alone_for_iwm_task_does_not_roll_up_and_remain_the_same"
+                  file="ppmpro/tests/scenario/advanced/iwm_task/iwm_test.py" line="94"
+                  time="1.474"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.iwm_task.iwm_test"
+                  name="test_iwm_task_scheduling_when_dates_are_provided_and_removed"
+                  file="ppmpro/tests/scenario/advanced/iwm_task/iwm_test.py" line="116"
+                  time="2.134"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.ssa.ssa_details_test"
+                  name="test_create_lookup_list_adding_project_category"
+                  file="ppmpro/tests/scenario/advanced/ssa/ssa_details_test.py" line="581"
+                  time="6.531"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.alert.project_test"
+                  name="test_actual_creation"
+                  file="ppmpro/tests/scenario/advanced/alert/project_test.py" line="70"
+                  time="7.552"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.iwm_task.iwm_test"
+                  name="test_task_scheduling_when_dates_are_removed_for_time_charged_iwm_task"
+                  file="ppmpro/tests/scenario/advanced/iwm_task/iwm_test.py" line="154"
+                  time="1.928"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.iwm_task.iwm_test"
+                  name="test_delete_task_schedules_when_dates_removed_on_existing_tasks_from_bulk_edit"
+                  file="ppmpro/tests/scenario/advanced/iwm_task/iwm_test.py" line="195"
+                  time="2.864"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.iwm_task.iwm_test"
+                  name="test_schedule_resource_field_disabled_when_dates_are_not_provided"
+                  file="ppmpro/tests/scenario/advanced/iwm_task/iwm_test.py" line="269"
+                  time="1.340"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.r2d2.r2d2_project_reports_test"
+                  name="test_sorting_order_in_projects"
+                  file="ppmpro/tests/scenario/advanced/r2d2/r2d2_project_reports_test.py" line="332"
+                  time="5.145"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.ssa.ssa_details_test"
+                  name="test_date_field_for_task"
+                  file="ppmpro/tests/scenario/advanced/ssa/ssa_details_test.py" line="620"
+                  time="4.222"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.iwm_task.iwm_test"
+                  name="test_multi_task_owners"
+                  file="ppmpro/tests/scenario/advanced/iwm_task/iwm_test.py" line="319"
+                  time="2.878"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.alert.project_test"
+                  name="test_actual_modification"
+                  file="ppmpro/tests/scenario/advanced/alert/project_test.py" line="88"
+                  time="10.574"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.iwm_task.iwm_test"
+                  name="test_add_iwm_child_task_to_a_parent_iwm_task_without_dates"
+                  file="ppmpro/tests/scenario/advanced/iwm_task/iwm_test.py" line="347"
+                  time="1.369"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.ssa.ssa_details_test"
+                  name="test_lookup_list_for_resource_in_project_entity"
+                  file="ppmpro/tests/scenario/advanced/ssa/ssa_details_test.py" line="642"
+                  time="3.680"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.r2d2.r2d2_project_reports_test"
+                  name="test_grouping_and_sorting_order_in_projects"
+                  file="ppmpro/tests/scenario/advanced/r2d2/r2d2_project_reports_test.py" line="265"
+                  time="4.974"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.iwm_task.iwm_test"
+                  name="test_add_iwm_child_task_to_a_parent_iwm_task_with_dates"
+                  file="ppmpro/tests/scenario/advanced/iwm_task/iwm_test.py" line="393"
+                  time="1.274"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.iwm_task.iwm_test"
+                  name="test_add_iwm_child_to_auto_scheduled_task"
+                  file="ppmpro/tests/scenario/advanced/iwm_task/iwm_test.py" line="434"
+                  time="1.332"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.iwm_task.iwm_test"
+                  name="test_add_auto_scheduled_child_task_to_iwm_parent_task"
+                  file="ppmpro/tests/scenario/advanced/iwm_task/iwm_test.py" line="478"
+                  time="1.040"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.ssa.ssa_details_test"
+                  name="test_pmo_lock_for_group"
+                  file="ppmpro/tests/scenario/advanced/ssa/ssa_details_test.py" line="657"
+                  time="12.752"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.iwm_task.iwm_test"
+                  name="test_copy_iwm_task_to_auto_scheduled_task_within_same_project"
+                  file="ppmpro/tests/scenario/advanced/iwm_task/iwm_test.py" line="504"
+                  time="0.910"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.iwm_task.iwm_test"
+                  name="test_copy_iwm_task_to_manually_scheduled_task_with_dates_within_same_project"
+                  file="ppmpro/tests/scenario/advanced/iwm_task/iwm_test.py" line="527"
+                  time="1.058"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.r2d2.r2d2_project_reports_test"
+                  name="test_field_definitions_report_on_R2D2"
+                  file="ppmpro/tests/scenario/advanced/r2d2/r2d2_project_reports_test.py" line="435"
+                  time="4.574"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.iwm_task.iwm_test"
+                  name="test_bulk_scheduling_for_iwm_tasks"
+                  file="ppmpro/tests/scenario/advanced/iwm_task/iwm_test.py" line="553"
+                  time="2.626"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.alert.project_test"
+                  name="test_staffing_creation"
+                  file="ppmpro/tests/scenario/advanced/alert/project_test.py" line="108"
+                  time="3.429"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.iwm_task.iwm_test"
+                  name="test_iwm_task_create_from_spreadsheet"
+                  file="ppmpro/tests/scenario/advanced/iwm_task/iwm_test.py" line="613"
+                  time="0.614"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.iwm_task.iwm_test"
+                  name="test_shift_tasks_by_days"
+                  file="ppmpro/tests/scenario/advanced/iwm_task/iwm_test.py" line="623"
+                  time="2.200"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.iwm_task.iwm_test"
+                  name="test_shift_tasks_by_keeping_duration_same_and_changing_start_date"
+                  file="ppmpro/tests/scenario/advanced/iwm_task/iwm_test.py" line="672"
+                  time="4.494"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.alert.project_test"
+                  name="test_staffing_modification"
+                  file="ppmpro/tests/scenario/advanced/alert/project_test.py" line="118"
+                  time="3.705"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.alert.project_test"
+                  name="test_staffing_delete"
+                  file="ppmpro/tests/scenario/advanced/alert/project_test.py" line="143"
+                  time="3.488"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.gate.test_details"
+                  name="test_all_fields_create"
+                  file="ppmpro/tests/scenario/basic_crud/gate/test_details.py" line="4"
+                  time="0.562"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.ssa.ssa_details_test"
+                  name="test_pmo_lock_for_specific_category"
+                  file="ppmpro/tests/scenario/advanced/ssa/ssa_details_test.py" line="795"
+                  time="15.201"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.gate.test_details"
+                  name="test_all_fields_update"
+                  file="ppmpro/tests/scenario/basic_crud/gate/test_details.py" line="18"
+                  time="0.716"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.task.constraints_test"
+                  name="test_task_constraint_must_finish_on_without_constraint_date"
+                  file="ppmpro/tests/scenario/advanced/task/constraints_test.py" line="77"
+                  time="1.694"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.alert.project_test"
+                  name="test_cross_project_task_dependency_alerts"
+                  file="ppmpro/tests/scenario/advanced/alert/project_test.py" line="164"
+                  time="4.726"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.task.constraints_test"
+                  name="test_task_constraint_start_no_earlier_than_with_constraint_date[14:01:2019:11:16]"
+                  file="ppmpro/tests/scenario/advanced/task/constraints_test.py" line="90"
+                  time="1.823"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.r2d2.r2d2_project_reports_test"
+                  name="test_project_topic_fields"
+                  file="ppmpro/tests/scenario/advanced/r2d2/r2d2_project_reports_test.py" line="967"
+                  time="39.315"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.task.constraints_test"
+                  name="test_task_constraint_start_no_earlier_than_with_constraint_date[14:01:2020:09:00]"
+                  file="ppmpro/tests/scenario/advanced/task/constraints_test.py" line="90"
+                  time="1.710"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.task.constraints_test"
+                  name="test_task_constraint_start_no_earlier_than_without_constraint_date"
+                  file="ppmpro/tests/scenario/advanced/task/constraints_test.py" line="107"
+                  time="1.693"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.alert.project_test"
+                  name="test_project_turning_off_alerts"
+                  file="ppmpro/tests/scenario/advanced/alert/project_test.py" line="201"
+                  time="0.344"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.alert.project_test"
+                  name="test_objective_description_not_included_in_email_if_removed_from_project_details"
+                  file="ppmpro/tests/scenario/advanced/alert/project_test.py" line="212"
+                  time="13.311"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.task.constraints_test"
+                  name="test_task_constraint_start_no_later_than_with_constraint_date[26:01:2019:14:30]"
+                  file="ppmpro/tests/scenario/advanced/task/constraints_test.py" line="120"
+                  time="1.843"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.task.constraints_test"
+                  name="test_task_constraint_start_no_later_than_with_constraint_date[25:01:2019:13:15]"
+                  file="ppmpro/tests/scenario/advanced/task/constraints_test.py" line="120"
+                  time="1.820"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.task.constraints_test"
+                  name="test_task_constraint_start_no_later_than_with_constraint_date[08:01:2019:17:00]"
+                  file="ppmpro/tests/scenario/advanced/task/constraints_test.py" line="120"
+                  time="1.795"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.task.constraints_test"
+                  name="test_task_constraint_finish_no_earlier_than_with_constraint_date[17:03:2020:17:00]"
+                  file="ppmpro/tests/scenario/advanced/task/constraints_test.py" line="149"
+                  time="1.759"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.task.constraints_test"
+                  name="test_task_constraint_finish_no_earlier_than_with_constraint_date[17:03:2020:15:05]"
+                  file="ppmpro/tests/scenario/advanced/task/constraints_test.py" line="149"
+                  time="1.888"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.issue.test_issue_details"
+                  name="test_entity_creation_issue_for_all_fields"
+                  file="ppmpro/tests/scenario/basic_crud/issue/test_issue_details.py" line="5"
+                  time="0.586"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.issue.test_issue_details"
+                  name="test_entity_update_issue_for_all_fields"
+                  file="ppmpro/tests/scenario/basic_crud/issue/test_issue_details.py" line="18"
+                  time="0.551"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.issue.test_issue_details"
+                  name="test_issues_move_and_listing_in_home_page"
+                  file="ppmpro/tests/scenario/basic_crud/issue/test_issue_details.py" line="34"
+                  time="4.856"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.task.constraints_test"
+                  name="test_task_constraint_finish_no_earlier_than_with_constraint_date[16:03:2020:12:45]"
+                  file="ppmpro/tests/scenario/advanced/task/constraints_test.py" line="149"
+                  time="1.803"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.task.constraints_test"
+                  name="test_task_constraint_finish_no_earlier_than_with_constraint_date[15:03:2020:09:00]"
+                  file="ppmpro/tests/scenario/advanced/task/constraints_test.py" line="149"
+                  time="1.772"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.task.constraints_test"
+                  name="test_task_constraint_finish_no_earlier_than_without_constraint_date"
+                  file="ppmpro/tests/scenario/advanced/task/constraints_test.py" line="166"
+                  time="1.718"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.account.test_create_account"
+                  name="test_account_all_mandatory_fields"
+                  file="ppmpro/tests/scenario/basic_crud/account/test_create_account.py" line="4"
+                  time="1.334"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.task.constraints_test"
+                  name="test_task_constraint_finish_no_later_than_with_constraint_date[15:03:2020:17:00]"
+                  file="ppmpro/tests/scenario/advanced/task/constraints_test.py" line="179"
+                  time="1.725"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.account.test_create_account"
+                  name="test_account_mandatory_field_status_closed"
+                  file="ppmpro/tests/scenario/basic_crud/account/test_create_account.py" line="16"
+                  time="1.254"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.account.test_create_account"
+                  name="test_account_all_fields"
+                  file="ppmpro/tests/scenario/basic_crud/account/test_create_account.py" line="27"
+                  time="0.214"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.account.test_create_account"
+                  name="test_account_update_mandatory_fields"
+                  file="ppmpro/tests/scenario/basic_crud/account/test_create_account.py" line="35"
+                  time="1.308"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.task.constraints_test"
+                  name="test_task_constraint_finish_no_later_than_with_constraint_date[14:03:2020:15:00]"
+                  file="ppmpro/tests/scenario/advanced/task/constraints_test.py" line="179"
+                  time="1.733"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.account.test_create_account"
+                  name="test_account_update_all_fields"
+                  file="ppmpro/tests/scenario/basic_crud/account/test_create_account.py" line="49"
+                  time="1.282"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.task.constraints_test"
+                  name="test_task_constraint_finish_no_later_than_with_constraint_date[09:03:2020:15:05]"
+                  file="ppmpro/tests/scenario/advanced/task/constraints_test.py" line="179"
+                  time="1.731"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.account.test_create_account"
+                  name="test_about_ppmpro"
+                  file="ppmpro/tests/scenario/basic_crud/account/test_create_account.py" line="62"
+                  time="0.017"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.contact.test_contact"
+                  name="test_contact" file="ppmpro/tests/scenario/advanced/contact/test_contact.py"
+                  line="4" time="1.160"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.task.constraints_test"
+                  name="test_task_constraint_finish_no_later_than_with_constraint_date[09:03:2020:9:00]"
+                  file="ppmpro/tests/scenario/advanced/task/constraints_test.py" line="179"
+                  time="1.719"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.expenses_approval.test_expense_approval"
+                  name="test_charged_expenses_for_task"
+                  file="ppmpro/tests/scenario/advanced/expenses_approval/test_expense_approval.py"
+                  line="4" time="3.165"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.task.constraints_test"
+                  name="test_task_constraint_finish_no_later_than_without_constraint_date"
+                  file="ppmpro/tests/scenario/advanced/task/constraints_test.py" line="195"
+                  time="1.744"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.alert.test_centralised_staffing"
+                  name="test_alert_for_submit_action"
+                  file="ppmpro/tests/scenario/advanced/alert/test_centralised_staffing.py" line="88"
+                  time="15.257"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.expenses_approval.test_expense_approval"
+                  name="test_edit_charged_expenses_for_task"
+                  file="ppmpro/tests/scenario/advanced/expenses_approval/test_expense_approval.py"
+                  line="56" time="3.632"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.task.constraints_test"
+                  name="test_task_constraint_start_no_later_than_without_constraint_date"
+                  file="ppmpro/tests/scenario/advanced/task/constraints_test.py" line="136"
+                  time="1.654"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.hierarchy.test_hierarchy"
+                  name="test_update_unit"
+                  file="ppmpro/tests/scenario/basic_crud/hierarchy/test_hierarchy.py" line="4"
+                  time="0.119"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.hierarchy.test_hierarchy"
+                  name="test_verify_absence_of_parent_as_itself"
+                  file="ppmpro/tests/scenario/basic_crud/hierarchy/test_hierarchy.py" line="19"
+                  time="0.101"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.program.test_details"
+                  name="test_mandatory_fields"
+                  file="ppmpro/tests/scenario/basic_crud/program/test_details.py" line="4"
+                  time="0.142"/>
+        <testcase
+                classname="ppmpro.tests.scenario.advanced.task.test_dependency_constraint_in_same_project"
+                name="test_dependency_and_constraint_for_start_no_earlier_than_within_same_project"
+                file="ppmpro/tests/scenario/advanced/task/test_dependency_constraint_in_same_project.py"
+                line="6" time="5.029"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.program.test_details"
+                  name="test_mandatory_fields_status_inactive"
+                  file="ppmpro/tests/scenario/basic_crud/program/test_details.py" line="16"
+                  time="1.152"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.program.test_details"
+                  name="test_mandatory_fields_status_hold"
+                  file="ppmpro/tests/scenario/basic_crud/program/test_details.py" line="28"
+                  time="1.138"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.expenses_approval.test_expense_approval"
+                  name="test_edit_delete_expense_as_expense_manager"
+                  file="ppmpro/tests/scenario/advanced/expenses_approval/test_expense_approval.py"
+                  line="118" time="3.269"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.program.test_details"
+                  name="test_all_fields"
+                  file="ppmpro/tests/scenario/basic_crud/program/test_details.py" line="40"
+                  time="1.156"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.alert.test_centralised_staffing"
+                  name="test_submit_verification_for_add_role"
+                  file="ppmpro/tests/scenario/advanced/alert/test_centralised_staffing.py"
+                  line="189" time="5.668"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.program.test_details"
+                  name="test_all_update_fields"
+                  file="ppmpro/tests/scenario/basic_crud/program/test_details.py" line="47"
+                  time="1.210"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.program.test_details"
+                  name="test_listing_of_time_users_for_program_owner_selection"
+                  file="ppmpro/tests/scenario/basic_crud/program/test_details.py" line="59"
+                  time="0.467"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.expenses_approval.test_expense_approval"
+                  name="test_hold_approve_reject_by_expense_approver"
+                  file="ppmpro/tests/scenario/advanced/expenses_approval/test_expense_approval.py"
+                  line="188" time="2.639"/>
+        <testcase
+                classname="ppmpro.tests.scenario.advanced.task.test_dependency_constraint_in_same_project"
+                name="test_dependency_and_constraint_for_asap_within_same_project"
+                file="ppmpro/tests/scenario/advanced/task/test_dependency_constraint_in_same_project.py"
+                line="78" time="2.951"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.permissions.test_permission_resources"
+                  name="test_standard_group_resource_can_assign_internal_rates"
+                  file="ppmpro/tests/scenario/advanced/permissions/test_permission_resources.py"
+                  line="37" time="0.524"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.permissions.test_permission_resources"
+                  name="test_implicit_permission_for_full_user"
+                  file="ppmpro/tests/scenario/advanced/permissions/test_permission_resources.py"
+                  line="76" time="0.423"/>
+        <testcase
+                classname="ppmpro.tests.scenario.advanced.timesheet_approvals.test_timesheet_approvals"
+                name="test_timesheet_approval_for_multiple_time_periods"
+                file="ppmpro/tests/scenario/advanced/timesheet_approvals/test_timesheet_approvals.py"
+                line="231" time="3.180"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.expenses_approval.test_expense_approval"
+                  name="test_negative_test_projects_not_scheduled"
+                  file="ppmpro/tests/scenario/advanced/expenses_approval/test_expense_approval.py"
+                  line="272" time="2.753"/>
+        <testcase
+                classname="ppmpro.tests.scenario.advanced.task.test_dependency_constraint_in_same_project"
+                name="test_dependency_and_constraint_for_snlt_and_mso_within_same_project"
+                file="ppmpro/tests/scenario/advanced/task/test_dependency_constraint_in_same_project.py"
+                line="287" time="5.065"/>
+        <testcase
+                classname="ppmpro.tests.scenario.advanced.timesheet_approvals.test_timesheet_approvals"
+                name="test_reject_timesheet_as_pm"
+                file="ppmpro/tests/scenario/advanced/timesheet_approvals/test_timesheet_approvals.py"
+                line="289" time="1.631"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.alert.temmember_test"
+                  name="test_teammember_user_add_to_project"
+                  file="ppmpro/tests/scenario/advanced/alert/temmember_test.py" line="6"
+                  time="5.477"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.expenses_approval.test_expense_approval"
+                  name="test_charge_expenses_for_task"
+                  file="ppmpro/tests/scenario/advanced/expenses_approval/test_expense_approval.py"
+                  line="319" time="2.578"/>
+        <testcase
+                classname="ppmpro.tests.scenario.advanced.timesheet_approvals.test_timesheet_approvals"
+                name="test_approve_zero_hr_timesheet_as_final_approver"
+                file="ppmpro/tests/scenario/advanced/timesheet_approvals/test_timesheet_approvals.py"
+                line="326" time="1.621"/>
+        <testcase
+                classname="ppmpro.tests.scenario.advanced.timesheet_approvals.test_timesheet_approvals"
+                name="test_ts_approver_for_resource_on_confidential_project_is_not_authorized"
+                file="ppmpro/tests/scenario/advanced/timesheet_approvals/test_timesheet_approvals.py"
+                line="364" time="2.740"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.expenses_approval.test_expense_approval"
+                  name="test_task_estimation_charged_against_time_can_be_deleted"
+                  file="ppmpro/tests/scenario/advanced/expenses_approval/test_expense_approval.py"
+                  line="371" time="1.879"/>
+        <testcase
+                classname="ppmpro.tests.scenario.advanced.task.test_dependency_constraint_in_same_project"
+                name="test_task_to_task_and_task_to_project_constraint_and_dependency"
+                file="ppmpro/tests/scenario/advanced/task/test_dependency_constraint_in_same_project.py"
+                line="360" time="3.810"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.expenses_approval.test_expense_approval"
+                  name="test_task_expense_estimate_open_when_expense_charged_against_estimates"
+                  file="ppmpro/tests/scenario/advanced/expenses_approval/test_expense_approval.py"
+                  line="418" time="1.695"/>
+        <testcase
+                classname="ppmpro.tests.scenario.advanced.timesheet_approvals.test_timesheet_approvals"
+                name="test_alternate_pm_approver_timesheet_verification"
+                file="ppmpro/tests/scenario/advanced/timesheet_approvals/test_timesheet_approvals.py"
+                line="417" time="1.650"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.alert.task_test"
+                  name="test_task_creation" file="ppmpro/tests/scenario/advanced/alert/task_test.py"
+                  line="39" time="6.427"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.task.test_hard_dependencies"
+                  name="test_predecessor_and_must_finish_on_constraint"
+                  file="ppmpro/tests/scenario/advanced/task/test_hard_dependencies.py" line="5"
+                  time="1.564"/>
+        <testcase
+                classname="ppmpro.tests.scenario.advanced.task.test_dependency_constraint_in_same_project"
+                name="test_dependency_and_constraint_for_must_finish_on_within_same_project"
+                file="ppmpro/tests/scenario/advanced/task/test_dependency_constraint_in_same_project.py"
+                line="147" time="4.664"/>
+        <testcase
+                classname="ppmpro.tests.scenario.advanced.timesheet_approvals.test_timesheet_approvals"
+                name="test_portfolio_team_user_time_entry"
+                file="ppmpro/tests/scenario/advanced/timesheet_approvals/test_timesheet_approvals.py"
+                line="461" time="1.817"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.task.test_hard_dependencies"
+                  name="test_predecessor_and_must_start_on_constraint"
+                  file="ppmpro/tests/scenario/advanced/task/test_hard_dependencies.py" line="56"
+                  time="1.543"/>
+        <testcase
+                classname="ppmpro.tests.scenario.advanced.timesheet_approvals.test_timesheet_approvals"
+                name="test_special_char_project_timesheet_pm_approver"
+                file="ppmpro/tests/scenario/advanced/timesheet_approvals/test_timesheet_approvals.py"
+                line="509" time="1.933"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.task.test_hard_dependencies"
+                  name="test_predecessor_and_start_no_earlier_than_constraint"
+                  file="ppmpro/tests/scenario/advanced/task/test_hard_dependencies.py" line="107"
+                  time="1.636"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.alert.task_test"
+                  name="test_multi_task_owners_alerts_for_task_update"
+                  file="ppmpro/tests/scenario/advanced/alert/task_test.py" line="91" time="5.866"/>
+        <testcase
+                classname="ppmpro.tests.scenario.advanced.timesheet_approvals.test_timesheet_approvals"
+                name="test_user_able_to_submit_timesheet_with_inactive_administrative_ts"
+                file="ppmpro/tests/scenario/advanced/timesheet_approvals/test_timesheet_approvals.py"
+                line="558" time="1.292"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.task.test_hard_dependencies"
+                  name="test_predecessor_and_start_no_later_than_constraint"
+                  file="ppmpro/tests/scenario/advanced/task/test_hard_dependencies.py" line="158"
+                  time="1.528"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.project.project_financials_test"
+                  name="test_create_forecast_with_all_fields"
+                  file="ppmpro/tests/scenario/basic_crud/project/project_financials_test.py"
+                  line="5" time="2.362"/>
+        <testcase
+                classname="ppmpro.tests.scenario.basic_crud.businessunit.test_businessunit_details"
+                name="test_mandatory_fields"
+                file="ppmpro/tests/scenario/basic_crud/businessunit/test_businessunit_details.py"
+                line="7" time="1.140"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.task.test_hard_dependencies"
+                  name="test_predecessor_and_finish_no_earlier_than_constraint"
+                  file="ppmpro/tests/scenario/advanced/task/test_hard_dependencies.py" line="209"
+                  time="1.461"/>
+        <testcase
+                classname="ppmpro.tests.scenario.basic_crud.businessunit.test_businessunit_details"
+                name="test_mandatory_fields_owner[QA, Automation_User02]"
+                file="ppmpro/tests/scenario/basic_crud/businessunit/test_businessunit_details.py"
+                line="16" time="1.130"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.project.project_financials_test"
+                  name="test_create_actuals_with_all_fields"
+                  file="ppmpro/tests/scenario/basic_crud/project/project_financials_test.py"
+                  line="14" time="4.415"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.task.test_hard_dependencies"
+                  name="test_predecessor_and_finish_no_later_than_constraint"
+                  file="ppmpro/tests/scenario/advanced/task/test_hard_dependencies.py" line="260"
+                  time="1.517"/>
+        <testcase
+                classname="ppmpro.tests.scenario.basic_crud.businessunit.test_businessunit_details"
+                name="test_mandatory_fields_owner[QA, Automation_User01]"
+                file="ppmpro/tests/scenario/basic_crud/businessunit/test_businessunit_details.py"
+                line="16" time="1.141"/>
+        <testcase
+                classname="ppmpro.tests.scenario.basic_crud.businessunit.test_businessunit_details"
+                name="test_mandatory_fields_office[San Francisco]"
+                file="ppmpro/tests/scenario/basic_crud/businessunit/test_businessunit_details.py"
+                line="26" time="1.126"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.task.test_hard_dependencies"
+                  name="test_successor_with_fs"
+                  file="ppmpro/tests/scenario/advanced/task/test_hard_dependencies.py" line="311"
+                  time="1.271"/>
+        <testcase
+                classname="ppmpro.tests.scenario.basic_crud.businessunit.test_businessunit_details"
+                name="test_mandatory_fields_office[Ohio]"
+                file="ppmpro/tests/scenario/basic_crud/businessunit/test_businessunit_details.py"
+                line="26" time="1.130"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.task.test_hard_dependencies"
+                  name="test_soft_project_dependencies"
+                  file="ppmpro/tests/scenario/advanced/task/test_hard_dependencies.py" line="349"
+                  time="1.179"/>
+        <testcase
+                classname="ppmpro.tests.scenario.basic_crud.businessunit.test_businessunit_details"
+                name="test_all_fields"
+                file="ppmpro/tests/scenario/basic_crud/businessunit/test_businessunit_details.py"
+                line="36" time="1.127"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.timesheet_alert.test_timesheet_alert"
+                  name="test_timesheet_alert_create"
+                  file="ppmpro/tests/scenario/advanced/timesheet_alert/test_timesheet_alert.py"
+                  line="4" time="0.068"/>
+        <testcase
+                classname="ppmpro.tests.scenario.advanced.userpreference.test_change_locale_and_login"
+                name="test_change_locale_and_login"
+                file="ppmpro/tests/scenario/advanced/userpreference/test_change_locale_and_login.py"
+                line="5" time="3.203"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.project.project_financials_test"
+                  name="test_update_forecast_with_all_fields"
+                  file="ppmpro/tests/scenario/basic_crud/project/project_financials_test.py"
+                  line="30" time="2.374"/>
+        <testcase
+                classname="ppmpro.tests.scenario.basic_crud.businessunit.test_businessunit_details"
+                name="test_all_fields_update"
+                file="ppmpro/tests/scenario/basic_crud/businessunit/test_businessunit_details.py"
+                line="47" time="1.159"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.portfolio.test_portfolio_details"
+                  name="test_portfolio_all_fields_for_category_applications_status_open"
+                  file="ppmpro/tests/scenario/basic_crud/portfolio/test_portfolio_details.py"
+                  line="5" time="1.162"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.project.project_financials_test"
+                  name="test_update_forecast_with_mandatory_fields"
+                  file="ppmpro/tests/scenario/basic_crud/project/project_financials_test.py"
+                  line="40" time="2.383"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.portfolio.test_portfolio_details"
+                  name="test_portfolio_all_fields_for_category_projects_status_proposed"
+                  file="ppmpro/tests/scenario/basic_crud/portfolio/test_portfolio_details.py"
+                  line="14" time="1.172"/>
+        <testcase
+                classname="ppmpro.tests.scenario.advanced.userpreference.test_change_locale_and_login"
+                name="test_organization_default_locale_change"
+                file="ppmpro/tests/scenario/advanced/userpreference/test_change_locale_and_login.py"
+                line="129" time="0.702"/>
+        <testcase
+                classname="ppmpro.tests.scenario.advanced.userpreference.test_change_locale_and_login"
+                name="test_locale_change_effect_on_number_representation"
+                file="ppmpro/tests/scenario/advanced/userpreference/test_change_locale_and_login.py"
+                line="174" time="18.482"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.portfolio.test_portfolio_details"
+                  name="test_portfolio_all_fields_updation"
+                  file="ppmpro/tests/scenario/basic_crud/portfolio/test_portfolio_details.py"
+                  line="44" time="1.590"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.project.project_financials_test"
+                  name="test_update_actuals_with_all_fields"
+                  file="ppmpro/tests/scenario/basic_crud/project/project_financials_test.py"
+                  line="50" time="4.492"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.timesheet.test_timesheet"
+                  name="test_timesheet_htc_field"
+                  file="ppmpro/tests/scenario/basic_crud/timesheet/test_timesheet.py" line="28"
+                  time="1.226"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.timesheet.test_timesheet"
+                  name="test_timesheet_update_htc"
+                  file="ppmpro/tests/scenario/basic_crud/timesheet/test_timesheet.py" line="46"
+                  time="1.298"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.timesheet.test_timesheet"
+                  name="test_edit_timesheet_total_hours"
+                  file="ppmpro/tests/scenario/basic_crud/timesheet/test_timesheet.py" line="64"
+                  time="1.254"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.project.project_financials_test"
+                  name="test_update_actuals_with_mandatory_fields"
+                  file="ppmpro/tests/scenario/basic_crud/project/project_financials_test.py"
+                  line="60" time="4.438"/>
+        <testcase
+                classname="ppmpro.tests.scenario.advanced.timesheet_settings.test_timesheet_management"
+                name="test_filter_fully_qualified_tasks_and_overlapping_date_with_project"
+                file="ppmpro/tests/scenario/advanced/timesheet_settings/test_timesheet_management.py"
+                line="4" time="0.089"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.task.association_test"
+                  name="test_associate_finance_to_task"
+                  file="ppmpro/tests/scenario/basic_crud/task/association_test.py" line="5"
+                  time="7.979"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.time_user.test_task_time_user"
+                  name="test_verify_time_user_cannot_create_delete_task"
+                  file="ppmpro/tests/scenario/advanced/time_user/test_task_time_user.py" line="120"
+                  time="2.050"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.project.project_financials_test"
+                  name="test_verify_creating_finance_categories_and_forecast_entry_under_project_finance_rollups"
+                  file="ppmpro/tests/scenario/basic_crud/project/project_financials_test.py"
+                  line="70" time="13.936"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.time_user.test_task_time_user"
+                  name="test_verify_time_user_edit_permissions_for_tasks_if_scheduled"
+                  file="ppmpro/tests/scenario/advanced/time_user/test_task_time_user.py" line="79"
+                  time="2.008"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.project.project_from_template_test"
+                  name="test_create_from_template"
+                  file="ppmpro/tests/scenario/basic_crud/project/project_from_template_test.py"
+                  line="5" time="7.129"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.time_user.test_task_time_user"
+                  name="test_verify_time_user_cannot_delete_task_as_owner_or_scheduled_resource"
+                  file="ppmpro/tests/scenario/advanced/time_user/test_task_time_user.py" line="163"
+                  time="2.482"/>
+        <testcase
+                classname="ppmpro.tests.scenario.advanced.import_allocation.test_import_allocation"
+                name="test_import_resource_allocation"
+                file="ppmpro/tests/scenario/advanced/import_allocation/test_import_allocation.py"
+                line="39" time="1.321"/>
+        <testcase
+                classname="ppmpro.tests.scenario.advanced.import_allocation.test_import_allocation"
+                name="test_import_roles_allocation"
+                file="ppmpro/tests/scenario/advanced/import_allocation/test_import_allocation.py"
+                line="6" time="0.480"/>
+        <testcase
+                classname="ppmpro.tests.scenario.advanced.import_allocation.test_import_allocation"
+                name="test_import_roles_allocation_with_multiple_entries"
+                file="ppmpro/tests/scenario/advanced/import_allocation/test_import_allocation.py"
+                line="81" time="0.386"/>
+        <testcase
+                classname="ppmpro.tests.scenario.advanced.import_allocation.test_import_allocation"
+                name="test_import_roles_allocation_for_updated_entries"
+                file="ppmpro/tests/scenario/advanced/import_allocation/test_import_allocation.py"
+                line="114" time="0.749"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.what_if.test_basic_what_if"
+                  name="test_what_if"
+                  file="ppmpro/tests/scenario/advanced/what_if/test_basic_what_if.py" line="4"
+                  time="0.804"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.request.request_test"
+                  name="test_update_all_fields"
+                  file="ppmpro/tests/scenario/basic_crud/request/request_test.py" line="4"
+                  time="0.197"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.timesheet_notes.test_timesheet_notes"
+                  name="test_timesheet_notes"
+                  file="ppmpro/tests/scenario/advanced/timesheet_notes/test_timesheet_notes.py"
+                  line="4" time="0.503"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.rate.rate_test"
+                  name="test_rate_table_to_org_role"
+                  file="ppmpro/tests/scenario/basic_crud/rate/rate_test.py" line="4" time="0.238"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.rate.rate_test"
+                  name="test_rate_table_for_resource"
+                  file="ppmpro/tests/scenario/basic_crud/rate/rate_test.py" line="26" time="0.395"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.timesheet_notes.test_timesheet_notes"
+                  name="test_add_and_delete_timesheet_entry_notes"
+                  file="ppmpro/tests/scenario/advanced/timesheet_notes/test_timesheet_notes.py"
+                  line="34" time="1.096"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.rate.rate_test"
+                  name="test_rate_table_with_different_locale"
+                  file="ppmpro/tests/scenario/basic_crud/rate/rate_test.py" line="47" time="0.849"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.project.project_from_template_test"
+                  name="test_create_from_template_copy_issues_only"
+                  file="ppmpro/tests/scenario/basic_crud/project/project_from_template_test.py"
+                  line="24" time="11.513"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.timesheet_notes.test_timesheet_notes"
+                  name="test_time_god_edit_entry_note_and_add_admin_time_note"
+                  file="ppmpro/tests/scenario/advanced/timesheet_notes/test_timesheet_notes.py"
+                  line="58" time="1.997"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.rate.rate_test"
+                  name="test_edit_internal_rate_permission_for_full_user"
+                  file="ppmpro/tests/scenario/basic_crud/rate/rate_test.py" line="97" time="0.909"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.rate.rate_test"
+                  name="test_view_internal_rate_permission_for_full_user"
+                  file="ppmpro/tests/scenario/basic_crud/rate/rate_test.py" line="149"
+                  time="0.641"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.asset.test_details"
+                  name="test_all_asset_mandatory_fields[Open]"
+                  file="ppmpro/tests/scenario/basic_crud/asset/test_details.py" line="6"
+                  time="0.119"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.asset.test_details"
+                  name="test_all_asset_mandatory_fields[Closed]"
+                  file="ppmpro/tests/scenario/basic_crud/asset/test_details.py" line="6"
+                  time="0.114"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.asset.test_details"
+                  name="test_all_asset_all_fields"
+                  file="ppmpro/tests/scenario/basic_crud/asset/test_details.py" line="14"
+                  time="0.130"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.asset.test_details"
+                  name="test_mandatory_fields_category[Asset]"
+                  file="ppmpro/tests/scenario/basic_crud/asset/test_details.py" line="26"
+                  time="0.120"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.timesheet_notes.test_timesheet_notes"
+                  name="test_timesheet_entry_note_after_submission_negative"
+                  file="ppmpro/tests/scenario/advanced/timesheet_notes/test_timesheet_notes.py"
+                  line="125" time="1.506"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.asset.test_details"
+                  name="test_mandatory_fields_category[Sample]"
+                  file="ppmpro/tests/scenario/basic_crud/asset/test_details.py" line="26"
+                  time="0.108"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.asset.test_details"
+                  name="test_all_fields_update"
+                  file="ppmpro/tests/scenario/basic_crud/asset/test_details.py" line="34"
+                  time="0.161"/>
+        <testcase classname="ppmpro.tests.unittests.project.test_base" name="test_create"
+                  file="ppmpro/tests/unittests/project/test_base.py" line="5" time="0.159"/>
+        <testcase classname="ppmpro.tests.unittests.project.test_project" name="test_set_title"
+                  file="ppmpro/tests/unittests/project/test_project.py" line="13" time="0.002"/>
+        <testcase classname="ppmpro.tests.unittests.project.test_project" name="test_set_owner"
+                  file="ppmpro/tests/unittests/project/test_project.py" line="21" time="0.002"/>
+        <testcase classname="ppmpro.tests.unittests.project.test_project"
+                  name="test_set_description" file="ppmpro/tests/unittests/project/test_project.py"
+                  line="29" time="0.002"/>
+        <testcase classname="ppmpro.tests.unittests.project.test_project"
+                  name="test_set_confidential" file="ppmpro/tests/unittests/project/test_project.py"
+                  line="37" time="0.002"/>
+        <testcase classname="ppmpro.tests.unittests.project.test_project" name="test_set_phase"
+                  file="ppmpro/tests/unittests/project/test_project.py" line="45" time="0.003"/>
+        <testcase classname="ppmpro.tests.unittests.project.test_project"
+                  name="test_set_complete_date"
+                  file="ppmpro/tests/unittests/project/test_project.py" line="53" time="0.002"/>
+        <testcase classname="ppmpro.tests.unittests.project.test_project" name="test_set_status"
+                  file="ppmpro/tests/unittests/project/test_project.py" line="62" time="0.003"/>
+        <testcase classname="ppmpro.tests.unittests.project.test_project" name="test_set_department"
+                  file="ppmpro/tests/unittests/project/test_project.py" line="71" time="0.003"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.taskschedule.test_task_schedule"
+                  name="test_task_schedule_resource_staffed"
+                  file="ppmpro/tests/scenario/advanced/taskschedule/test_task_schedule.py" line="6"
+                  time="0.940"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.project.project_financials_test"
+                  name="test_create_actuals_with_mandatory_fields"
+                  file="ppmpro/tests/scenario/basic_crud/project/project_financials_test.py"
+                  line="22" time="4.417"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.taskschedule.test_task_schedule"
+                  name="test_task_schedule_resource_staffed_diff_role"
+                  file="ppmpro/tests/scenario/advanced/taskschedule/test_task_schedule.py" line="29"
+                  time="0.980"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.timesheet_notes.test_timesheet_notes"
+                  name="test_timesheet_bulk_edit_notes"
+                  file="ppmpro/tests/scenario/advanced/timesheet_notes/test_timesheet_notes.py"
+                  line="168" time="0.947"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.taskschedule.test_task_schedule"
+                  name="test_task_schedule_resource_staffed_two_roles"
+                  file="ppmpro/tests/scenario/advanced/taskschedule/test_task_schedule.py" line="51"
+                  time="1.305"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.scoring.details_test"
+                  name="test_create_scoring_category"
+                  file="ppmpro/tests/scenario/basic_crud/scoring/details_test.py" line="4"
+                  time="0.145"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.scoring.details_test"
+                  name="test_create_scoring_criteria"
+                  file="ppmpro/tests/scenario/basic_crud/scoring/details_test.py" line="9"
+                  time="0.132"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.scoring.details_test"
+                  name="test_create_scoring_profile"
+                  file="ppmpro/tests/scenario/basic_crud/scoring/details_test.py" line="17"
+                  time="0.186"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.scoring.details_test"
+                  name="test_create_scoring_team"
+                  file="ppmpro/tests/scenario/basic_crud/scoring/details_test.py" line="24"
+                  time="0.319"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.time_user.test_issue_time_user"
+                  name="test_time_user_view_permissions_for_issues"
+                  file="ppmpro/tests/scenario/advanced/time_user/test_issue_time_user.py" line="4"
+                  time="1.234"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.taskschedule.test_task_schedule"
+                  name="test_task_schedule_resource_unstaffed"
+                  file="ppmpro/tests/scenario/advanced/taskschedule/test_task_schedule.py" line="93"
+                  time="0.808"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.time_user.test_issue_time_user"
+                  name="test_time_user_edit_permissions_for_issues_as_owner"
+                  file="ppmpro/tests/scenario/advanced/time_user/test_issue_time_user.py" line="37"
+                  time="1.458"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.taskschedule.test_task_schedule"
+                  name="test_task_schedule_resource_htc_manually"
+                  file="ppmpro/tests/scenario/advanced/taskschedule/test_task_schedule.py"
+                  line="114" time="0.861"/>
+        <testcase
+                classname="ppmpro.tests.scenario.advanced.timesheet_settings.test_timesheet_filters"
+                name="test_filter_dates_overlap_resource_allocated_and_scheduled"
+                file="ppmpro/tests/scenario/advanced/timesheet_settings/test_timesheet_filters.py"
+                line="66" time="0.822"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.taskschedule.test_task_schedule"
+                  name="test_task_schedule_change_role_hrs"
+                  file="ppmpro/tests/scenario/advanced/taskschedule/test_task_schedule.py"
+                  line="135" time="0.831"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.task.details_test"
+                  name="test_special_char_in_task_titile_and_dfault_task_status"
+                  file="ppmpro/tests/scenario/basic_crud/task/details_test.py" line="4"
+                  time="1.718"/>
+        <testcase
+                classname="ppmpro.tests.scenario.advanced.timesheet_settings.test_timesheet_filters"
+                name="test_filter_for_fully_qualified_tasks_and_overlapping_date_with_project_for_inactive_task"
+                file="ppmpro/tests/scenario/advanced/timesheet_settings/test_timesheet_filters.py"
+                line="87" time="1.113"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.taskschedule.test_task_schedule"
+                  name="test_task_schedule_role_staffed"
+                  file="ppmpro/tests/scenario/advanced/taskschedule/test_task_schedule.py"
+                  line="157" time="0.779"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.taskschedule.test_task_schedule"
+                  name="test_task_schedule_role_unstaffed"
+                  file="ppmpro/tests/scenario/advanced/taskschedule/test_task_schedule.py"
+                  line="186" time="0.729"/>
+        <testcase
+                classname="ppmpro.tests.scenario.advanced.timesheet_settings.test_timesheet_filters"
+                name="test_for_filter_resource_allocated_and_scheduled"
+                file="ppmpro/tests/scenario/advanced/timesheet_settings/test_timesheet_filters.py"
+                line="155" time="0.907"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.task.details_test"
+                  name="test_filtered_ssa_field_in_grid"
+                  file="ppmpro/tests/scenario/basic_crud/task/details_test.py" line="27"
+                  time="12.464"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.taskschedule.test_task_schedule"
+                  name="test_task_schedule_resource_already_scheduled"
+                  file="ppmpro/tests/scenario/advanced/taskschedule/test_task_schedule.py"
+                  line="206" time="1.069"/>
+        <testcase
+                classname="ppmpro.tests.scenario.advanced.timesheet_settings.test_timesheet_filters"
+                name="test_time_user_can_charge_time[Time_User]"
+                file="ppmpro/tests/scenario/advanced/timesheet_settings/test_timesheet_filters.py"
+                line="409" time="3.358"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.taskschedule.test_task_schedule"
+                  name="test_task_schedule_verify_internal_rate_resource_info"
+                  file="ppmpro/tests/scenario/advanced/taskschedule/test_task_schedule.py"
+                  line="468" time="1.019"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.project.project_from_template_test"
+                  name="test_create_from_template_copy_finances_only"
+                  file="ppmpro/tests/scenario/basic_crud/project/project_from_template_test.py"
+                  line="46" time="6.358"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.request.test_request"
+                  name="test_issue_association_filter_from_request"
+                  file="ppmpro/tests/scenario/advanced/request/test_request.py" line="720"
+                  time="6.153"/>
+        <testcase
+                classname="ppmpro.tests.scenario.advanced.timesheet_settings.test_timesheet_filters"
+                name="test_time_user_can_charge_time[Request_User]"
+                file="ppmpro/tests/scenario/advanced/timesheet_settings/test_timesheet_filters.py"
+                line="409" time="3.529"/>
+        <testcase
+                classname="ppmpro.tests.scenario.advanced.timesheet_settings.test_timesheet_filters"
+                name="test_time_user_can_charge_time[Support_User]"
+                file="ppmpro/tests/scenario/advanced/timesheet_settings/test_timesheet_filters.py"
+                line="409" time="4.425"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.wsdl.test_wsdl" name="test_wsdl_binding"
+                  file="ppmpro/tests/scenario/advanced/wsdl/test_wsdl.py" line="4" time="0.429"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.project.details_test"
+                  name="test_update_project_all_fields"
+                  file="ppmpro/tests/scenario/basic_crud/project/details_test.py" line="33"
+                  time="0.344"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.project.details_test"
+                  name="test_sencha_rich_text_format_for_description_status_comments_and_notes_in_project"
+                  file="ppmpro/tests/scenario/basic_crud/project/details_test.py" line="45"
+                  time="0.576"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.project.details_test"
+                  name="test_confidential_project_access"
+                  file="ppmpro/tests/scenario/basic_crud/project/details_test.py" line="64"
+                  time="1.433"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.dashboard.test_crud_dashboard"
+                  name="test_create_edit_dashboard"
+                  file="ppmpro/tests/scenario/advanced/dashboard/test_crud_dashboard.py" line="8"
+                  time="6.205"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.project.details_test"
+                  name="test_baseline_project_creation"
+                  file="ppmpro/tests/scenario/basic_crud/project/details_test.py" line="140"
+                  time="1.707"/>
+        <testcase
+                classname="ppmpro.tests.scenario.advanced.timesheet_settings.test_timesheet_filters"
+                name="test_limit_timesheet_working_hours"
+                file="ppmpro/tests/scenario/advanced/timesheet_settings/test_timesheet_filters.py"
+                line="504" time="1.383"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.project.details_test"
+                  name="test_project_calendar_update"
+                  file="ppmpro/tests/scenario/basic_crud/project/details_test.py" line="155"
+                  time="0.519"/>
+        <testcase classname="ppmpro.tests.scenario.basic_crud.project.details_test"
+                  name="test_create_projects_with_status_open_and_closed"
+                  file="ppmpro/tests/scenario/basic_crud/project/details_test.py" line="165"
+                  time="0.621"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.dashboard.test_crud_dashboard"
+                  name="test_dashboard_variable_setting"
+                  file="ppmpro/tests/scenario/advanced/dashboard/test_crud_dashboard.py" line="43"
+                  time="0.001">
+            <skipped type="pytest.skip"
+                     message="Need to analyse this test and find out the reason for failing and change">
+                /var/lib/jenkins/workspace/PyTest_Development/ppmpro/tests/scenario/advanced/dashboard/test_crud_dashboard.py:44:
+                Need to analyse this test and find out the reason for failing and change
+            </skipped>
+        </testcase>
+        <testcase classname="ppmpro.tests.scenario.advanced.dashboard.test_crud_dashboard"
+                  name="test_dashboard_scope_from_entity"
+                  file="ppmpro/tests/scenario/advanced/dashboard/test_crud_dashboard.py" line="73"
+                  time="0.321"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.dashboard.test_crud_dashboard"
+                  name="test_creating_dashboard_with_report_filters"
+                  file="ppmpro/tests/scenario/advanced/dashboard/test_crud_dashboard.py" line="92"
+                  time="0.261"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.dashboard.test_crud_dashboard"
+                  name="test_creating_dashboard_with_report_adhoc_filters"
+                  file="ppmpro/tests/scenario/advanced/dashboard/test_crud_dashboard.py" line="124"
+                  time="0.065"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.dashboard.test_crud_dashboard"
+                  name="test_read_existing_report"
+                  file="ppmpro/tests/scenario/advanced/dashboard/test_crud_dashboard.py" line="144"
+                  time="4.322"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.r2d2.r2d2_timesheet_entry_test"
+                  name="test_timesheet_entry_drilldown_in_pie_report"
+                  file="ppmpro/tests/scenario/advanced/r2d2/r2d2_timesheet_entry_test.py" line="150"
+                  time="8.631"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.dashboard.test_crud_dashboard"
+                  name="test_dashboard_with_drilldown"
+                  file="ppmpro/tests/scenario/advanced/dashboard/test_crud_dashboard.py" line="152"
+                  time="6.878"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.r2d2.r2d2_timesheet_entry_test"
+                  name="test_timesheet_entry_fields_in_list_report"
+                  file="ppmpro/tests/scenario/advanced/r2d2/r2d2_timesheet_entry_test.py" line="72"
+                  time="6.354"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.gate_skipping.test_gate_skipping"
+                  name="test_request_flow_with_skipping"
+                  file="ppmpro/tests/scenario/advanced/gate_skipping/test_gate_skipping.py"
+                  line="238" time="10.513"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.gate_skipping.test_gate_skipping"
+                  name="test_request_flow_with_skipping_hold_and_unhold"
+                  file="ppmpro/tests/scenario/advanced/gate_skipping/test_gate_skipping.py"
+                  line="275" time="5.669"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.gate_skipping.test_gate_skipping"
+                  name="test_pending_approvers"
+                  file="ppmpro/tests/scenario/advanced/gate_skipping/test_gate_skipping.py"
+                  line="501" time="8.990"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.r2d2.r2d2_task_schedule_reports_test"
+                  name="test_r2d2_area_reports_on_task_schedule"
+                  file="ppmpro/tests/scenario/advanced/r2d2/r2d2_task_schedule_reports_test.py"
+                  line="64" time="14.862"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.r2d2.r2d2_task_schedule_reports_test"
+                  name="test_sorting_that_is_both_sorter_and_aggregator"
+                  file="ppmpro/tests/scenario/advanced/r2d2/r2d2_task_schedule_reports_test.py"
+                  line="108" time="5.124"/>
+        <testcase classname="ppmpro.tests.scenario.advanced.r2d2.r2d2_task_schedule_reports_test"
+                  name="test_r2d2_area_reports_on_task_role"
+                  file="ppmpro/tests/scenario/advanced/r2d2/r2d2_task_schedule_reports_test.py"
+                  line="9" time="6.644"/>
+        <testcase
+                classname="ppmpro.tests.scenario.advanced.financial_summary.test_project_financial_components"
+                name="test_change_multiplier_from_project"
+                file="ppmpro/tests/scenario/advanced/financial_summary/test_project_financial_components.py"
+                line="178" time="40.670"/>
+        <testcase
+                classname="ppmpro.tests.scenario.advanced.financial_summary.test_project_financial_components"
+                name="test_parent_field_value_changes_to_zero_on_adding_child"
+                file="ppmpro/tests/scenario/advanced/financial_summary/test_project_financial_components.py"
+                line="230" time="0.338"/>
+        <testcase
+                classname="ppmpro.tests.scenario.advanced.financial_summary.test_project_financial_components"
+                name="test_manual_entry_of_financial_data"
+                file="ppmpro/tests/scenario/advanced/financial_summary/test_project_financial_components.py"
+                line="279" time="0.452"/>
+        <testcase
+                classname="ppmpro.tests.scenario.advanced.financial_summary.test_project_financial_components"
+                name="test_verify_value_for_filtered_field"
+                file="ppmpro/tests/scenario/advanced/financial_summary/test_project_financial_components.py"
+                line="334" time="0.160"/>
+        <testcase
+                classname="ppmpro.tests.scenario.advanced.financial_summary.test_project_financial_components"
+                name="test_verify_cap_noncap_and_labour_nonlabor_field"
+                file="ppmpro/tests/scenario/advanced/financial_summary/test_project_financial_components.py"
+                line="366" time="0.381"/>
+        <testcase
+                classname="ppmpro.tests.scenario.advanced.financial_summary.test_project_financial_components"
+                name="test_user_view_only_permission_for_project"
+                file="ppmpro/tests/scenario/advanced/financial_summary/test_project_financial_components.py"
+                line="432" time="1.932"/>
+        <testcase
+                classname="ppmpro.tests.scenario.advanced.financial_summary.test_project_financial_components"
+                name="test_billing_rate_change_impact_financial_summary"
+                file="ppmpro/tests/scenario/advanced/financial_summary/test_project_financial_components.py"
+                line="460" time="0.333"/>
+        <testcase
+                classname="ppmpro.tests.scenario.advanced.financial_summary.test_project_financial_components"
+                name="test_pmi_metrics_verification_for_percent_complete_method_timesheet_actuals"
+                file="ppmpro/tests/scenario/advanced/financial_summary/test_project_financial_components.py"
+                line="505" time="3.362"/>
+        <testcase
+                classname="ppmpro.tests.scenario.advanced.financial_summary.test_project_financial_components"
+                name="test_project_financial_variance_and_negative_entry"
+                file="ppmpro/tests/scenario/advanced/financial_summary/test_project_financial_components.py"
+                line="822" time="13.921"/>
+        <testcase
+                classname="ppmpro.tests.scenario.advanced.financial_summary.test_project_financial_components"
+                name="test_pmi_new_fields_for_eac_and_etc_calculation_using_option_1"
+                file="ppmpro/tests/scenario/advanced/financial_summary/test_project_financial_components.py"
+                line="996" time="1.512"/>
+        <testcase
+                classname="ppmpro.tests.scenario.advanced.financial_summary.test_project_financial_components"
+                name="test_pmi_new_fields_for_eac_and_etc_calculation_using_option_2"
+                file="ppmpro/tests/scenario/advanced/financial_summary/test_project_financial_components.py"
+                line="1072" time="1.437"/>
+        <testcase
+                classname="ppmpro.tests.scenario.advanced.financial_summary.test_project_financial_components"
+                name="test_pmi_new_fields_for_eac_and_etc_calculation_using_option_3"
+                file="ppmpro/tests/scenario/advanced/financial_summary/test_project_financial_components.py"
+                line="1144" time="1.433"/>
+        <testcase
+                classname="ppmpro.tests.scenario.advanced.financial_summary.test_project_financial_components"
+                name="test_user_view_only_permission_for_org_finance_summary"
+                file="ppmpro/tests/scenario/advanced/financial_summary/test_project_financial_components.py"
+                line="1216" time="0.694"/>
+    </testsuite>
+</testsuites>
